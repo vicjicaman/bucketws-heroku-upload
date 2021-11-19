@@ -13,17 +13,24 @@
     <a href="/" class="lang-logo">
       <img src="/lang-logo.png">
     </a>
-    <h1>Getting Started on BucketWS + Heroku with Node.js</h1>
-    <p>This is a sample Node application deployed to Heroku + BucketWS. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started on Heroku with Node.js</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    <h1>BucketWS + Heroku</h1>
+    <h4>Getting Started with Node.js public upload demo</h4>
+
+    <p>This is the simplest integration of the BucketWS addon with NodeJS, this is a simple demo to upload a file to a bucket.</p>
+    <p>
+      Check out the other demos for more functionalities, for example you can find the private files demo, you can upload private files and authorize users to view the files.
+    </p>
+
+    <a type="button" class="btn btn-lg btn-light" href="#"> Walkthought video</a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/vicjicaman/bucketws-heroku-upload"> Source on GitHub</a>
   </div>
 </div>
 <div class="container">
 
   <div class="col">
     <div class="my-sm-4">
-      Upload a file to the <%=bucketMode%> bucket <b><%=bucketTarget%></b>
+      <p>Make sure take the bucket <b><%=bucketTarget%></b> exists! ( check out the <a target="_blank" href="#">Walkthought video</a> ) </p>
+      <p>Upload a file to the <%=bucketMode%> bucket <b><%=bucketTarget%></b></p>
     </div>
 
     <form class="form">
@@ -60,7 +67,7 @@
       trigger.style.display = !immediate ? "block" : "none";
 
       let allowFetch = true
-  
+
       const loaderUrl= "https://editor.pagews.com/_PWSR_/lib/loader.gif"
       var uploadObj = window.PageWSLib.Upload.create({
         id: "uploader-target",
