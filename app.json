@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "name": "BucketWS + Heroku with Node.js",
+  "description": "A barebones Node.js app using the BucketWS addon",
+  "repository": "https://github.com/vicjicaman/bucketws-heroku-upload",
+  "logo": "https://util-files.listws.com/_PWSR_/files/buckets/images/315c908fc7e942d057e155a326bf1baa.png",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }
