@@ -1,0 +1,15 @@
+<title>Node.js Getting Started on Heroku</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+
+<script src="https://<%= domain %>/_PWSR_/lib/pkg/<%= release %>/pagews-upload/index.js"></script>
+<script src="https://<%= domain %>/_PWSR_/lib/pkg/<%= release %>/pagews-image/index.js"></script>
+
+<script>
+  var domain = "<%= domain %>";
+  var release = "<%= release %>";
+  var bucketPublic = "<%= bucketPublic %>";
+  var bucketPrivate = "<%= bucketPrivate %>";
+</script>
