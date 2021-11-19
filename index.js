@@ -23,7 +23,7 @@ express()
   .use(bodyParser.json())
   .set("views", path.join(__dirname, "views"))
   .set("view engine", "ejs")
-  // In a real app you will authrize this upload route based on the logged in user
+  // In a real app you will authorize this upload route based on the logged in user
   .post("/app/signed-from-server/:mode", async function(req, res) {
     const { mode } = req.params;
     const { fileid, tags } = req.body;
