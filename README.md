@@ -1,8 +1,15 @@
-# node-js-getting-started
+# BucketWS addon + Heroku getting started
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
+This demo repository is based on the NodeJS getting started repository from Heroku +  the BucketWS addon.
 This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+
+
+<!-- VIDEO -->
+## Video
+
+Check this 2min video that shows the process of deploy this repository,create the addon adn upload a file.
+[view video](https://www.youtube.com/watch?v=ZYTkzALbzok)
+
 
 ## Running Locally
 
@@ -28,12 +35,16 @@ or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## Documentation
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+<!-- ABOUT -->
+## About
 
-- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+**BucketWS** is a service to let you create private or public file buckets that will be delivered over a CDN with SSL
+
+The service feature the next functionalities:
+- Upload files signed from the server to a public bucket
+- Upload files signed from the server to a private bucket
+- Authorize the viewer to see the private bucket files
+- List the files from the public bucket
+- List the files from the private bucket
+- Upload a file anonymously
